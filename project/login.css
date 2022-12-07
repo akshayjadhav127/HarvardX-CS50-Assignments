@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    /*background-color: rebeccapurple;*/
+    background-size:cover;
+    background-position:center;
+    background: linear-gradient(to left, #cf0ce0 30%, #6666ff 70%);
+    
+}
+.container{
+    background-color:rgba(206, 201, 201,0.7);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 5%;
+    padding: 85px;
+    width: max-content;
+    margin-left: 35%;
+    border-radius: 50px;
+    height: 300px;
+    box-shadow:  2px 2px 15px rgba(0,0,0,0.4);
+}
+.text-center h1{
+    padding-bottom:50px ;
+    text-align: center;
+
+
+}
+.form-group{
+    padding: 7px;
+    
+
+}
+.form-control{
+    padding: 2px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.5);
+}
+.btn{ 
+
+    width: 100px;
+    font-size: large;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 105px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: darkgray;
+
+}
+a{
+    margin-left: 90px;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    color: aliceblue;
+
+}
+.btn:hover{
+    background: linear-gradient(to right, #cf0ce0 20%, #6666ff 70%);
+    color: aliceblue;
+
+}
+.btn1{
+    width: 150px;
+    font-size: large;
+    border-radius: 5px;
+    padding: 7px;
+    margin-left: 140px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-top: 25px;
+    background-color: darkgray;
+
+}
+.text-center1{
+    margin-top: 10px;
+    margin-left: 45px;
+}
+.btn1:hover{
+    background: linear-gradient(to right, #cf0ce0 20%, #6666ff 70%);
+    color: aliceblue;
+}
+input{
+    background: transparent;
+}
+.text-center{
+    margin-top: 20px;
+}
+img{
+    height: 150px;
+    display: flex;
+}
+.logo{
+    display: flex;
+}
+.logo h1{
+    margin-top: 30px;
+    color: rgb(77, 75, 73);
+    font-family: cursive;
+    font-size: 50px;
+
+
+}
